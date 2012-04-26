@@ -1,0 +1,10 @@
+<map>
+  <info>
+    <size width="10" height="10" />
+    <name value="Ala ma kota"/>
+  </info>
+  <elements>
+    <element type="block" x="1" y="1" />
+    <element type="block" x="2" y="2" />
+  </elements>
+</map>
