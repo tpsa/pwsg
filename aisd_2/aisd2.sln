@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab06", "aisd2_lab6_2\lab06.csproj", "{9A2BCB21-79F4-4A71-9A87-514B9BC3CB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab08", "lab08\lab08.csproj", "{B94C712A-A307-41C7-8F5A-AD3BB73DD4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_domowe", "lab_domowe\lab_domowe.csproj", "{FBECFD16-A2A9-4C25-9DC4-E30181823905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A2BCB21-79F4-4A71-9A87-514B9BC3CB1C}.Debug|x86.ActiveCfg = Debug|x86
+		{9A2BCB21-79F4-4A71-9A87-514B9BC3CB1C}.Debug|x86.Build.0 = Debug|x86
+		{9A2BCB21-79F4-4A71-9A87-514B9BC3CB1C}.Release|x86.ActiveCfg = Release|x86
+		{9A2BCB21-79F4-4A71-9A87-514B9BC3CB1C}.Release|x86.Build.0 = Release|x86
+		{B94C712A-A307-41C7-8F5A-AD3BB73DD4D4}.Debug|x86.ActiveCfg = Debug|x86
+		{B94C712A-A307-41C7-8F5A-AD3BB73DD4D4}.Debug|x86.Build.0 = Debug|x86
+		{B94C712A-A307-41C7-8F5A-AD3BB73DD4D4}.Release|x86.ActiveCfg = Release|x86
+		{B94C712A-A307-41C7-8F5A-AD3BB73DD4D4}.Release|x86.Build.0 = Release|x86
+		{FBECFD16-A2A9-4C25-9DC4-E30181823905}.Debug|x86.ActiveCfg = Debug|x86
+		{FBECFD16-A2A9-4C25-9DC4-E30181823905}.Debug|x86.Build.0 = Debug|x86
+		{FBECFD16-A2A9-4C25-9DC4-E30181823905}.Release|x86.ActiveCfg = Release|x86
+		{FBECFD16-A2A9-4C25-9DC4-E30181823905}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
