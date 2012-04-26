@@ -54,7 +54,7 @@ namespace MiniPaint
             DropShadowEffect ef  = new DropShadowEffect();
             ef.Color = Colors.Red;
             ef.BlurRadius = 30;
-            //ef.
+            ef.ShadowDepth = 0;
             s.Effect = ef;
             Canvas.SetZIndex(last, 10);
             
@@ -90,6 +90,12 @@ namespace MiniPaint
             s.MouseMove -= rect1_MouseMove;
             s.ReleaseMouseCapture();
             e.Handled = true;
+        }
+
+        private void canvas1_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            last.Effect = null;
+            last = null;
         }
     }
 }

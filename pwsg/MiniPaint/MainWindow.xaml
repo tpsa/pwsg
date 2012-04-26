@@ -26,7 +26,7 @@
                         </MenuItem>
                     </MenuItem>
                 </Menu>
-                <Canvas Name="canvas1" Grid.Column="1" Grid.Row="1" ClipToBounds="True">
+                <Canvas Name="canvas1" Grid.Column="1" Grid.Row="1" ClipToBounds="True" MouseDown="canvas1_MouseDown">
                     <Canvas.Background>
                         <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
                             <GradientStop Color="Black" Offset="0" />
