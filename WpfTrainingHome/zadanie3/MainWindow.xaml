@@ -1,0 +1,24 @@
+﻿<Window x:Class="zadanie3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:zadanie3"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:ColorConverter x:Key="ColorConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Slider Height="23" HorizontalAlignment="Left" Margin="122,25,0,0" Name="slider1" VerticalAlignment="Top" Width="100" Maximum="255" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="122,73,0,0" Name="slider2" VerticalAlignment="Top" Width="100" Maximum="255" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="122,127,0,0" Name="slider3" VerticalAlignment="Top" Width="100" Maximum="255" />
+        <Rectangle Height="32" HorizontalAlignment="Left" Margin="38,177,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="350">
+            <Rectangle.Fill>
+                <MultiBinding Converter="{StaticResource ColorConverter}" Mode="OneWay">
+                    <Binding ElementName="slider1" Path="Value" />
+                    <Binding ElementName="slider2" Path="Value" />
+                    <Binding ElementName="slider3" Path="Value" />
+                </MultiBinding>
+
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>
